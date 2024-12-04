@@ -88,7 +88,7 @@ html, body {
 }
 
 h1 {
-	font-family: "Open Sans", serif;
+	font-family: "Inria", serif;
 font-weight: 300;
 font-style: normal;
 	font-size: 2em;
@@ -97,7 +97,7 @@ font-style: normal;
 }
 
 h2 {
-	font-family: "Open Sans", serif;
+	font-family: "Inria", serif;
 	font-size: 1.5em;
     line-height: 1;
     color: #390544;
@@ -112,7 +112,7 @@ p {
     color: #fff;
 }
 nav{
-	font-family: "Open Sans", serif;
+	font-family: "Inria", serif;
 	font-size: 1.2em;
 	width: 80%; /*this is for responsiveness*/
 	margin: 0 auto;
