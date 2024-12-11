@@ -129,7 +129,7 @@ nav{
 	width: 400px;
 	width: 80%; /*this is for responsiveness*/
 	margin: 0 auto;
-	border: dashed white;
+	border: dashed color#CBC3E3;
 	/*border: dashed turquoise;*/
 	text-align: center;
 	margin-top: 2em;
