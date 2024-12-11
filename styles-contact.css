@@ -71,11 +71,12 @@ html, body {
 
 .center {
     width: 40%; /* ----- This is for responsiveness-----*/
-	min-width: 300px;
+	min-width: 800px;
 	padding: 2%;
     margin: 100px auto;
  	background: rgba(255, 255, 255, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
+	border: 4px
 	/*border: 4px dashed white;*/
 }
 
@@ -83,26 +84,35 @@ html, body {
 #logo {
     width: 50%; /* --------- This is for responsiveness ----------*/
 	margin-bottom: 16px;
-	/*border: 3px dashed red;*/
+	border: 3px;
 	text-align: center;
+	position: relative;
+	z-index: 10;
 }
 
 h1 {
-	font-family: "Inria", serif;
-font-weight: 300;
+	font-family: "bennet-display", serif;
+font-weight: 400;
 font-style: normal;
 	font-size: 2em;
     margin: 20px auto 10px auto;
     color: #390544;
+margin-top: 30px;
+position: relative;
+z-index: 1;
+
 }
 
 h2 {
-	font-family: "Inria", serif;
+	font-family: "bennet-display", serif;
+	font-weight: 400;
 	font-size: 1.5em;
-    line-height: 1;
+    line-height: 1.4;
     color: #390544;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+position: relative;
+z-index: 1;
 }
 
 p {
@@ -112,10 +122,14 @@ p {
     color: #fff;
 }
 nav{
-	font-family: "Inria", serif;
+	font-family: "bennet-display", serif;
+	font-style: normal;
+	font-weight: 300;
 	font-size: 1.2em;
+	width: 400px;
 	width: 80%; /*this is for responsiveness*/
 	margin: 0 auto;
+	border: dashed white;
 	/*border: dashed turquoise;*/
 	text-align: center;
 	margin-top: 2em;
