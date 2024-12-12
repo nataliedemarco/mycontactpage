@@ -126,7 +126,7 @@ html, body {
 }
 
 h1 {
-	font-family: eixample-dip, sans-serif;
+	font-family: eixample-dip;
 font-weight: 400;
 font-style: normal;
 	font-size: 2em;
@@ -139,7 +139,7 @@ z-index: 1;
 }
 
 h2 {
-	font-family: eixample-dip, sans-serif;
+	font-family: eixample-dip;
 	font-weight: 400;
 	font-size: 1.5em;
     line-height: 1.4;
@@ -157,7 +157,7 @@ p {
     color: #fff;
 }
 nav{
-	font-family: eixample-dip, sans-serif;
+	font-family: eixample-dip;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 1.2em;
